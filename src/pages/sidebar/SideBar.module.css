@@ -1,0 +1,22 @@
+.sidebar{
+  width: 20%;
+  height: 100%;
+  color: #fff;
+  background: #1D1042;
+  padding: 3.8rem 3.2rem;
+}
+.btnWelcome{
+  background: #45269C;
+  border: none;
+  border-radius: 5px;
+  padding: 1.35rem 2.6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.btnWelcome:focus{
+  outline: none;
+}
