@@ -1,3 +1,17 @@
 .slider{
-  width: 31.6rem;
+  width: 28.8rem;
+  height: 1rem;
+  border-radius: 10px;
+  background: #EBEBEB;
+}
+.slider div{
+  height: 100%;
+  width: 70%;
+  background: #FF5F37;
+}
+.slider.green{
+  background: #8BC488;
+}
+.slider.orange{
+  background: #F89D4B;
 }

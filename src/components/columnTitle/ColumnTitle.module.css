@@ -1,0 +1,18 @@
+.column{
+  height: 5rem;
+  width: 30rem;
+  padding: 1.6rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #858A93;
+  background: #F4F6F8;
+}
+.column div{
+  background: #000;
+  color: #fff;
+  padding: .8rem 1.2rem;
+  border-radius: 5px;
+}

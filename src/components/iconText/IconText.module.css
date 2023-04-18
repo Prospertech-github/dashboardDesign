@@ -1,0 +1,25 @@
+.iconText{
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+}
+.iconText.six{
+  gap: .6rem;
+}
+.iconText.four{
+  gap: .4rem;
+}
+.iconText.nine{
+  gap: .9rem;
+}
+.iconText img{
+  width: 1.4rem;
+}
+.iconText p{
+  font-size: 1.6rem;
+}
+.icon{
+  fill: blue;
+  width: 23rem;
+  stroke: blue;
+}

@@ -1,8 +1,18 @@
 import './App.css';
+import IconText from './components/iconText/IconText';
+import ThunderIcon from '../src/assets/icons/thunderIcon.svg'
+import TaskCard from './components/taskCard/TaskCard';
+import { Icons } from './components/icons/Icons';
 
 function App() {
   return (
-    <h1> Hello World </h1>
+		<>
+			<IconText iconName={ThunderIcon} text="Dashboard" space={6} />
+
+			<TaskCard />
+
+			<Icons/>
+		</>
   );
 }
 

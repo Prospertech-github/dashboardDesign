@@ -1,12 +1,16 @@
-import React from 'react'
-import styles from './Slider.module.css'
+import React from 'react';
+import styles from './Slider.module.css';
 
-const Slider = () => {
-  return (
-    <div className={styles.slider}>
+const Slider = ({ half, color }) => {
+	let bgColor;
+	if (color == 'orange') bgColor = 'orange';
+  if (color == 'green') bgColor = 'green';
+  
+	return (
+		<div className={`${styles.slider} ${styles[bgColor]}`}>
+			{half && <div />}
+		</div>
+	);
+};
 
-    </div>
-  )
-}
-
-export default Slider
+export default Slider;
