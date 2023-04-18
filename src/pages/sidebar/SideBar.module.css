@@ -31,3 +31,7 @@
   height: 1px;
   background: #fff;
 }
+.bottomDiv{
+  width: fit-content;
+  margin-top: 8rem;
+}

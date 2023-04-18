@@ -5,3 +5,10 @@ export const AddTask = () => {
   return <button className={styles.addtaskButton}> &#43; Add Task </button>;
 }
 
+export const SideBarButton = ({children, text}) => {
+  return (
+		<button className={styles.btnSideBar}>
+			{children} {text}
+		</button>
+  );
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './IconText.module.css'
 
-const IconText = ({children, space, text }) => {
+const IconText = ({children, space, text, grey }) => {
   let gap;
   if (space === 9) gap = 'nine';
   if (space === 4) gap = 'four';
@@ -9,7 +9,7 @@ const IconText = ({children, space, text }) => {
   return (
     <div className={`${styles.iconText} ${styles[gap]}`}> 
       {children}
-      <p>{text}</p>
+      <p className={`${grey && styles.grey}`}>{text}</p>
     </div>
   )
 }

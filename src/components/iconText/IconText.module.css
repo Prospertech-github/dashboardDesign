@@ -18,8 +18,6 @@
 .iconText p{
   font-size: 1.6rem;
 }
-.icon{
-  fill: blue;
-  width: 23rem;
-  stroke: blue;
+p.grey{
+  color: #858A93;
 }
