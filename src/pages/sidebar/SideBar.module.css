@@ -20,3 +20,14 @@
 .btnWelcome:focus{
   outline: none;
 }
+.navigations{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.line{
+  width: 19.2rem;
+  height: 1px;
+  background: #fff;
+}
