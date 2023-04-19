@@ -2,9 +2,6 @@ import React from 'react'
 import ColumnTitle from '../columnTitle/ColumnTitle'
 import TaskCard from '../taskCard/TaskCard'
 import styles from './GridItem.module.css'
-import TaskImage1 from '../../assets/images/cardImage1.png'
-import TaskImage2 from '../../assets/images/cardImage2.png'
-import TaskImage3 from '../../assets/images/cardImage3.png'
 
 const GridItem = ({ section, number, duo, reverse }) => {
   let sliderStyle;
@@ -25,7 +22,7 @@ const GridItem = ({ section, number, duo, reverse }) => {
 							img
 							text="Highfidelity Design"
 							sliderStyle={sliderStyle}
-							imgName={TaskImage1}
+							
 						/>
 						<TaskCard text="Usability testing" sliderStyle={sliderStyle} />
 					</div>
@@ -34,7 +31,6 @@ const GridItem = ({ section, number, duo, reverse }) => {
 						img
 						text="Highfidelity Design"
 						sliderStyle ={sliderStyle}
-						imgName={TaskImage1}
 					/>
 				)}
 			</div>

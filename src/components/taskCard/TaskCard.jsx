@@ -7,18 +7,26 @@ import Slider from '../sliders/Slider';
 import ListIcons from '../icons/ListIcons';
 import { CommentIcon, LinkIcon } from '../icons/Icons';
 import DotIcons from '../icons/DotIcons';
+import TaskImage1 from '../../assets/images/cardImage1.png';
+import TaskImage2 from '../../assets/images/cardImage2.png';
+import TaskImage3 from '../../assets/images/cardImage3.png';
 
-const TaskCard = ({
-	img,
-	text,
-	sliderStyle,
-	imgName,
-}) => {
+const TaskCard = ({ img, text, sliderStyle }) => {
 	return (
 		<div className={styles.taskCard}>
 			{img && (
 				<div className={styles.imgContainer}>
-					<img src={`${imgName}`} alt="Card task" />
+					{sliderStyle === 'toDo' && (
+						<img src={TaskImage1} alt="Card task" />
+					)}
+
+					{sliderStyle === 'progress' && (
+						<img src={TaskImage2} alt="Card task" />
+					)}
+
+					{sliderStyle === 'completed' && (
+						<img src={TaskImage3} alt="Card task" />
+					)}
 				</div>
 			)}
 
