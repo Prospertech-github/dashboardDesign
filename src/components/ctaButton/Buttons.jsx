@@ -12,3 +12,7 @@ export const SideBarButton = ({children, text}) => {
 		</button>
   );
 }
+
+export const PlainButton = ({ text }) => {
+  return <button className={styles.plainBtn}>{text}</button>
+}

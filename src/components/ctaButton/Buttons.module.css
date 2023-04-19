@@ -8,7 +8,6 @@
   border: 1px dashed #D5D5D5;
   background: #F2F4F5;
 }
-
 .btnSideBar{
   background: #45269C;
   border: none;
@@ -23,4 +22,14 @@
 }
 .btnSideBar:focus{
   outline: none;
+}
+.plainBtn{
+  background: #000;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 1.2rem 2.8rem;
+  border: none;
+  border-radius: 5px;
 }

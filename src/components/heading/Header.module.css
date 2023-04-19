@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background: #fff;
+  padding: 4rem 6.4rem;
+  width: 100%;
+}
+.topDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topDiv h1{
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+.topDiv p{
+  color: #B8B9BD;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: .4rem;
+}
+.bottomDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileDiv{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.profileDiv p{
+  font-size: 1.5rem;
+  color: #B8B9BD;
+}
+.navigation{
+  display: flex;
+  gap: 2rem;
+}
