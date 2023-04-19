@@ -18,59 +18,28 @@ The app was with React and was styles using `CSS Modules`. The reason for using 
 
 Using CSS Modules, each component has a separate CSS Module file named with the following convention `componentName.module.css`. This file contains all component based styling.
 
-Using React, the app was broken into independent components and developed applying some React developement logics and concepts like `props`, `conditional rendering`
+Using React, the app was broken into independent components and developed applying some React developement logics and concepts like `props`, `conditional rendering` etc.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Codebase Structure
 
-### `yarn build`
+The codebase is structured in the simplest possible way using proper and clearly defined names for folders and files.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The `assets` folder holds the icons and images used in the development of the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The `components` folder holds the various independent components of the applications like the Cards, Icon components, Buttons, etc.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The `pages` folder holds the various parts of the Dashboard design. Though the application is currently a `Single Page Application (SPA)`, the decision to still split the Landing Page to different is a decision to tackle futuristic expansion or enhancement of the dashboard design version.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Difficulty Encountered
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The development of this apllication was a huge learning curve for me. The significant difficulty I encountered while working on the project was `Trying my possible best to make components as reusable as possible` and `Prop drilling through component children`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
+LinkedIn -- [Prosper Ikechukwu](https://www.linkedin.com/in/prosperikechukwu/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Twitter -- [@devprosper](https://www.twitter.com/devprosper)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
