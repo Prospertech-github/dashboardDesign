@@ -16,6 +16,7 @@
   font-weight: 600;
   line-height: 1.2;
   color: #000;
+  margin-bottom: .8rem;
 }
 .textContainer p{
   font-size: 1.4rem;
@@ -24,8 +25,7 @@
 }
 .taskName{
   display: flex;
-  flex-direction: column;
-  gap: .8rem;
+  justify-content: space-between;
 }
 .taskIconSection{
   margin-top: 1.85rem;

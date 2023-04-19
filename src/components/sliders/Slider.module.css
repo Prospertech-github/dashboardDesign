@@ -8,10 +8,12 @@
   height: 100%;
   width: 70%;
   background: #FF5F37;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .slider.green{
   background: #8BC488;
 }
 .slider.orange{
-  background: #F89D4B;
+  background: #EBEBEB;
 }
