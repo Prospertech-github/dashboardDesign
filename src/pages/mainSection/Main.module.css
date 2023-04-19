@@ -3,5 +3,8 @@
 }
 .contentSection{
   background: #FCFBFC;
-  height: 500px;
+  padding: 6.4rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }

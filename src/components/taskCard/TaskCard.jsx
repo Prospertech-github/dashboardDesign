@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './TaskCard.module.css';
-import cardImage from '../../assets/images/cardImage1.png';
 import ThunderIcon from '../../assets/icons/thunderIcon.svg';
 import ProfileStack from '../../assets/images/profileStackx32.png';
 import IconText from '../iconText/IconText';
