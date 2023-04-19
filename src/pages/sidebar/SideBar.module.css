@@ -1,6 +1,5 @@
 .sidebar{
   width: 20%;
-  height: 100%;
   color: #fff;
   background: #1D1042;
   padding: 3.8rem 3.2rem;
@@ -33,5 +32,5 @@
 }
 .bottomDiv{
   width: fit-content;
-  margin-top: 40rem;
+  margin-top: 48rem;
 }
