@@ -1,18 +1,24 @@
-# Getting Started with Create React App
+# Dashboard Design with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This project is a test project for the Training phase of the NUPAT Technologies Internship. The intention of the project is to test interns ability to deliver pixel-perfect designs that match given UI design and also eye for details.
 
-In the project directory, you can run:
+## Link To App and Design
 
-### `yarn start`
+This app is a desktop dashboard design. It was designed using Figma and developed using React.JS. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Figma Link: https://www.figma.com/file/QdARXcFMveMaXZU37ZtzhD/%F0%9F%98%B5-Responsive-dashboard-design-using-Auto-Layout-Community?is-community-duplicate=1&fuid=
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project Live Link: https://dashboard-design-app.netlify.app/
+
+### Build Process
+
+The app was with React and was styles using `CSS Modules`. The reason for using CSS Modules is the `Programming Concept of Separation of Concern`. 
+
+Using CSS Modules, each component has a separate CSS Module file named with the following convention `componentName.module.css`. This file contains all component based styling.
+
+Using React, the app was broken into independent components and developed applying some React developement logics and concepts like `props`, `conditional rendering`
 
 ### `yarn test`
 
