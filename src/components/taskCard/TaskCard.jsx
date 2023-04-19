@@ -9,12 +9,12 @@ import ListIcons from '../icons/ListIcons';
 import { CommentIcon, LinkIcon } from '../icons/Icons';
 import DotIcons from '../icons/DotIcons';
 
-const TaskCard = ({img, text, toDo, progress, completed}) => {
+const TaskCard = ({img, text, toDo, progress, completed, imgName}) => {
 	return (
 		<div className={styles.taskCard}>
 			{img && (
 				<div className={styles.imgContainer}>
-					<img src={cardImage} alt="Card task" />
+					<img src={`${imgName}`} alt="Card task" />
 				</div>
 			)}
 
