@@ -6,13 +6,13 @@ This project is a test project for the Training phase of the NUPAT Technologies 
 
 ## Link To App and Design
 
-This app is a desktop dashboard design. It was designed using Figma and developed using React.JS. 
+This app is a desktop dashboard design. It was designed using Figma and developed using React.JS. To have a look at the app, click the link(s) below
 
-Figma Link: https://www.figma.com/file/QdARXcFMveMaXZU37ZtzhD/%F0%9F%98%B5-Responsive-dashboard-design-using-Auto-Layout-Community?is-community-duplicate=1&fuid=
+[Figma Link](https://www.figma.com/file/QdARXcFMveMaXZU37ZtzhD/%F0%9F%98%B5-Responsive-dashboard-design-using-Auto-Layout-Community?is-community-duplicate=1&fuid=)
 
-Project Live Link: https://dashboard-design-app.netlify.app/
+[Live/Hosted Link](https://dashboard-design-app.netlify.app/)
 
-### Build Process
+## Build Process
 
 The app was with React and was styles using `CSS Modules`. The reason for using CSS Modules is the `Programming Concept of Separation of Concern`. 
 
