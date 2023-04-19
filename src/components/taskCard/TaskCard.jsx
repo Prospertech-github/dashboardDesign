@@ -8,7 +8,12 @@ import ListIcons from '../icons/ListIcons';
 import { CommentIcon, LinkIcon } from '../icons/Icons';
 import DotIcons from '../icons/DotIcons';
 
-const TaskCard = ({img, text, toDo, progress, completed, imgName}) => {
+const TaskCard = ({
+	img,
+	text,
+	sliderStyle,
+	imgName,
+}) => {
 	return (
 		<div className={styles.taskCard}>
 			{img && (
@@ -45,10 +50,14 @@ const TaskCard = ({img, text, toDo, progress, completed, imgName}) => {
 
 							<h4> 2/10 </h4>
 						</div>
-						{toDo && <Slider />}
-						{progress && <Slider color="orange" half />}
-						{completed && <Slider color='green'/>}
-						{/* <Slider /> */}
+
+						{sliderStyle === 'toDo' && <Slider />}
+						{sliderStyle === 'progress' && (
+							<Slider color="orange" half />
+						)}
+						{sliderStyle === 'completed' && (
+							<Slider color="green" />
+						)}
 					</div>
 
 					<div className={styles.extraIconDetails}>
