@@ -2,6 +2,7 @@ import React from 'react'
 import ColumnTitle from '../columnTitle/ColumnTitle'
 import TaskCard from '../taskCard/TaskCard'
 import styles from './GridItem.module.css'
+import { AddTask } from '../ctaButton/Buttons'
 
 const GridItem = ({ section, number, duo, reverse }) => {
   let sliderStyle;
@@ -32,7 +33,8 @@ const GridItem = ({ section, number, duo, reverse }) => {
 						text="Highfidelity Design"
 						sliderStyle ={sliderStyle}
 					/>
-				)}
+        )}
+        <AddTask />
 			</div>
 		);
 }

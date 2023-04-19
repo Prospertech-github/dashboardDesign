@@ -1,8 +1,14 @@
 import React from 'react'
 import styles from './Buttons.module.css'
+import { PlusIcon } from '../icons/Icons';
 
 export const AddTask = () => {
-  return <button className={styles.addtaskButton}> &#43; Add Task </button>;
+  return (
+		<button className={styles.addtaskButton}>
+			{' '}
+			<PlusIcon fill="#7D8088" size={16}/> Add Task{' '}
+		</button>
+  );
 }
 
 export const SideBarButton = ({children, text}) => {
