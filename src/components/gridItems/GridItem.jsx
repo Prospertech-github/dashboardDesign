@@ -11,7 +11,7 @@ const GridItem = () => {
     <div className={styles.gridItem}>
       <ColumnTitle text='To Do' number='3' />
       <TaskCard text='Usability testing' progress />
-      <TaskCard img text='Highfidelity Design' toDo imgName={TaskImage}/>
+      <TaskCard img text='Highfidelity Design' toDo imgName={TaskImage1}/>
     </div>
   )
 }
